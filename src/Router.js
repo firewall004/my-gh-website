@@ -14,7 +14,6 @@ const Router = () => {
                 <Navbar menuItems={PrimaryMenuItems}/>
                 <div>
                     <Switch>
-                        <Route path="/" component={About} />
                         <Route path="/about" component={About} />
                         <Route path="/more" component={More} />
                         <Route path="/dummy-website" component={Index} />
