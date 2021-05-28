@@ -16,7 +16,7 @@ const Footer = () => {
                 <li><a href="#"><FaFacebookSquare size={25} /></a></li>
                 <li><a href="#"><FaGooglePlus size={25} /></a></li>
             </ul>	
-		</footer>
+        </footer>
     )
 }
 
