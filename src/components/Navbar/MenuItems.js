@@ -6,12 +6,12 @@ export const PrimaryMenuItems = [
     },
     {
         title: 'Demo1',
-        url: '/',
+        url: '/demo1',
         cName: 'nav-link',
     },
     {
         title: 'Demo2',
-        url: '/',
+        url: '/demo1',
         cName: 'nav-link',
     },
     {
@@ -22,25 +22,25 @@ export const PrimaryMenuItems = [
 ]
 
 
-export const SecondaryMenuItems = [
+export const DummyWebsiteMenuItems = [
     {
-        title: 'Demo1',
-        url: '#',
+        title: 'Home',
+        url: '/dummy-website',
         cName: 'nav-link',
     },
     {
         title: 'Demo2',
-        url: '#',
+        url: '/demo2',
         cName: 'nav-link',
     },
     {
         title: 'Demo3',
-        url: '#',
+        url: '/demo3',
         cName: 'nav-link',
     },
     {
         title: 'Demo4',
-        url: '#',
+        url: '/dummy-website/about',
         cName: 'nav-link',
     },
 ]

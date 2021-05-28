@@ -5,7 +5,6 @@ import {  Link } from "react-router-dom"
 const Navbar = ({ menuItems }) => {
     return (
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">Vivek</h1>
             <ul className="nav-menu">
                 {menuItems.map((item, index) => {
                     return (

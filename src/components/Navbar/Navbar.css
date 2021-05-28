@@ -1,7 +1,7 @@
 .NavbarItems {
     background: blueviolet;
     display: flex;
-    height: 50px;
+    height: auto;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -9,13 +9,13 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 90vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin: .75rem !important;
 }
 
 .nav-link {
@@ -29,3 +29,4 @@
     border-radius: 4px;
     transition: all 0.2s ease-in;
 }
+/* TODO: Add media screen :) */

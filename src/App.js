@@ -1,14 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import { PrimaryMenuItems } from './components/Navbar/MenuItems'
 import About from './components/PrimaryMenu/About'
 import Index from './components/PrimaryMenu/DummyWebsite/Index'
 import InvalidRoute from './components/InvalidRoute'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -22,6 +20,7 @@ function App() {
             <Route component={InvalidRoute} />
           </Switch>
         </div>
+        <Footer />
     </Router>
     </div>
   );

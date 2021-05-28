@@ -1,7 +1,12 @@
+import penguin from '../../penguin.png'
+
 const About = () => {
     return (
         <div>
-            <h2>About</h2>            
+            <div>
+                <h2>Hi!</h2>
+                <img src={penguin} alt="Logo" />
+            </div>
         </div>
     )
 }
