@@ -1,3 +1,4 @@
+
 export const PrimaryMenuItems = [
     {
         title: 'Dummy Website',
@@ -5,13 +6,8 @@ export const PrimaryMenuItems = [
         cName: 'nav-link',
     },
     {
-        title: 'Demo1',
-        url: '/demo1',
-        cName: 'nav-link',
-    },
-    {
-        title: 'Demo2',
-        url: '/demo1',
+        title: 'More',
+        url: '/more',
         cName: 'nav-link',
     },
     {

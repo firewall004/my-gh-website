@@ -1,4 +1,3 @@
-import React from 'react'
 import './Navbar.css'
 import {  Link } from "react-router-dom"
 
@@ -8,7 +7,11 @@ const Navbar = ({ menuItems }) => {
             <ul className="nav-menu">
                 {menuItems.map((item, index) => {
                     return (
-                        <li key={index}><Link to={item.url} className={item.cName}>{item.title}</Link></li>
+                        <li key={index}>
+                            <Link to={item.url} className={item.cName}>
+                                {item.title}
+                            </Link>
+                        </li>
                     )
                 })}
             </ul>
