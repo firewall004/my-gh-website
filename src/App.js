@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Router from './Router'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Mr. Vivek Kumar</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Router />
     </div>
   );
 }

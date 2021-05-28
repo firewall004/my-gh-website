@@ -1,0 +1,20 @@
+footer {
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    background-color: wheat;
+}
+
+.footer {
+    padding: .7rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 25px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-content: end;
+}
