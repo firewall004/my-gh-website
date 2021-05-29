@@ -29,6 +29,7 @@
 
 .card-image {
     height: 15rem;
+    -webkit-filter: blur(3px);
 }
 
 .grid>a {

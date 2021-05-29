@@ -1,12 +1,17 @@
-import penguin from '../../penguin.png'
+import penguin from '../../assets/penguin.png'
+import Tada from 'react-reveal/Tada';
+import Flash from 'react-reveal/Flash';
+import './About.css'
 
 const About = () => {
     return (
-        <div>
-            <div>
-                <h2>Hi!</h2>
+        <div className="about">
+            <Flash>
+                <h2 className="mb-3">Hi!</h2>
+            </Flash>
+            <Tada>
                 <img src={penguin} alt="Logo" />
-            </div>
+            </Tada>
         </div>
     )
 }

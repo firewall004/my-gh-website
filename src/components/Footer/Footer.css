@@ -5,16 +5,19 @@ footer {
     right: 0px;
     margin-bottom: 0px;
     position: fixed;
-    background-color: wheat;
 }
 
-.footer {
+.footer-right {
     padding: .7rem 0;
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 25px;
     list-style: none;
     text-align: center;
-    width: 100%;
+    width: 93%;
     justify-content: end;
+}
+.footer-left {
+    text-align: center;
+    padding: .7rem 0 !important;
 }

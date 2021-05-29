@@ -1,10 +1,10 @@
 .NavbarItems {
-    background: blueviolet;
+    background: #b3b1b1;
     display: flex;
     height: auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .nav-menu {
@@ -25,9 +25,9 @@
 }
 
 .nav-link:hover {
-    background-color: rgb(117, 44, 160);
+    background-color: #7e7d7d;
     color: white;
-    border-radius: 4px;
-    transition: all 0.2s ease-in;
+    border-radius: 8px;
+    transition: all 0.8s ease-in-out;
 }
 /* TODO: Add media screen :) */

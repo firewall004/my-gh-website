@@ -11,18 +11,14 @@ import InvalidRoute from '../../InvalidRoute'
 
 const Index = () => {
     return (
-        <div>
-            <Router>
-                <Navbar menuItems={DummyWebsiteMenuItems}/>
-                <div>
-                    <Switch>
-                        <Route path="/dummy-website/about" component={About} />
-                        <Route path="/dummy-website/" component={Home} />
-                        <Route component={InvalidRoute} />
-                    </Switch>
-                </div>
-            </Router>
-        </div>
+        <Router>
+            <Navbar menuItems={DummyWebsiteMenuItems}/>
+                <Switch>
+                    <Route path="/dummy-website/about" component={About} />
+                    <Route path="/dummy-website/" component={Home} />
+                    <Route component={InvalidRoute} />
+                </Switch>
+        </Router>
     )
 }
 
