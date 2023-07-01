@@ -18,6 +18,7 @@ const Router = () => {
                     <Route exact path="/more" component={More} />
                     <Route exact path="/more/backdrop" component={BackDrop} />
                     <Route exact path="/" component={Index} />
+                    <Route exact path="my-gh-website/" component={Index} />
                     <Route component={InvalidRoute} />
                 </Switch>
                 <Footer />
