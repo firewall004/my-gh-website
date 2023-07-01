@@ -1,5 +1,5 @@
 import './Navbar.css'
-import {  Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Navbar = ({ menuItems }) => {
     return (
@@ -8,7 +8,7 @@ const Navbar = ({ menuItems }) => {
                 {menuItems.map((item, index) => {
                     return (
                         <li key={index}>
-                            <Link to={item.url} className={item.cName}>
+                            <Link to={item.url} className='nav-link'>
                                 {item.title}
                             </Link>
                         </li>
