@@ -1,7 +1,11 @@
 const Index = () => {
     return (
-        <h1>Home</h1>
+        <div>
+            <h1>Hi!</h1>
+            <h2>I'm Vivek</h2>
+        </div>
+
     )
 }
 
-export default Index
+export default Index;
