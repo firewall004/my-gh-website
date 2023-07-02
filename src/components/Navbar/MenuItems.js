@@ -5,8 +5,8 @@ export const PrimaryMenuItems = [
         url: '/',
     },
     {
-        title: 'More',
-        url: '/more',
+        title: 'Something',
+        url: '/something',
     },
     {
         title: 'About Me',
