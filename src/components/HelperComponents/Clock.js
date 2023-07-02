@@ -1,18 +1,18 @@
-import { useState } from 'react'
+import { useState, React } from "react"
 
 const Clock = () => {
-    let time = new Date().toLocaleTimeString()
-    const [ctime, setCtime] = useState(time)
+  let time = new Date().toLocaleTimeString()
+  const [ctime, setCtime] = useState(time)
 
-    const updateTime = () => {
-        time = new Date().toLocaleTimeString()
-        setCtime(time)
-    }
-    setInterval(updateTime, 1000)
+  const updateTime = () => {
+    time = new Date().toLocaleTimeString()
+    setCtime(time)
+  }
+  setInterval(updateTime, 1000)
 
-    return (
-        <span>{ctime}</span>
-    )
+  return (
+    <span>{ctime}</span>
+  )
 }
 
 export default Clock
